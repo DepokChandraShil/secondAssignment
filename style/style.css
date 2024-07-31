@@ -154,7 +154,6 @@ padding: 0.5rem;
   text-align: left;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  
   backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.1);
   padding: 0.5rem;
@@ -221,7 +220,8 @@ padding: 0.5rem;
 .run-container{
   width: 80%;
   display: flex;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
   border-radius: 18px;
   background: rgb(34, 34, 34);
 }
@@ -262,7 +262,159 @@ padding: 0.5rem;
   width: 100%;
   border-radius: 18px;
 }
+.training-section{
+  margin:0 auto;
+}
+.training-container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
 
+}
+.training-content{
+  width: 100%;
+  padding: 3rem 2rem 3rem 3rem;
+  margin-left: -3rem;
+}
+.training-content h2{
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: white;
+
+}
+.training-content p{
+
+  margin-top: 2rem;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #FFFFFFA6;
+  line-height: 2rem;
+}
+.training-images-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.training-images-up{
+  width:100%;
+  display: flex;
+  justify-content: start;
+}
+.image-container{
+  position: relative;
+  width:200px;
+  height: 150px;
+  background-color: aqua;
+
+}
+.image-div{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.8;
+  background-image: url('../images/exercise1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.img1{
+  width:250px;
+  height: 150px;
+  background-color: aqua;
+}
+.image1{
+  background-image: url('../images/exercise1.jpg');
+}
+.img2{
+  width:450px;
+  height: 150px;
+  background-color: rgb(250, 26, 5);
+}
+.image2{
+  background-image: url('../images/exercise2.png');
+}
+.img3{
+  width:300px;
+  height: 150px;
+  background-color: rgb(111, 91, 91);
+}
+.image3{
+  background-image: url('../images/exercise3.png');
+}
+
+.img4{
+  width:450px;
+  height: 150px;
+  background-color: rgb(9, 9, 9);
+}
+.image4{
+  background-image: url('../images/exercise4.png');
+}
+.img5{
+  width:300px;
+  height: 150px;
+  background-color: rgb(6, 168, 55);
+}
+.image5{
+  background-image: url('../images/exercise5.jpg');
+}
+.img6{
+  width:300px;
+  height: 150px;
+  background-color: rgb(52, 215, 248);
+}
+.image6{
+  background-image: url('../images/exercise6.jpg');
+}
+.image-content{
+  font-size: 0.7rem;
+  font-weight: 900;
+  margin-left: 2rem;
+  margin-top: 8rem;
+}
+.content1{
+  color: black;
+}
+.content3{
+  color: white;
+}
+.content5{
+  color: white;
+}
+.content6{
+  color: white;
+}
+.image-content2{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color:white;
+}
+.image-content4{
+margin-left: 15rem;
+  margin-top: 1rem;
+  color:white;
+}
+.bmi-cal{
+  margin-left: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.bmi-cal h2{
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: white;
+}
+.bmi-cal p{
+  margin-top: 1.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #FFFFFFA6;
+  line-height: 1.5rem;
+}
 
 
 
@@ -305,6 +457,11 @@ padding: 0.5rem;
   }
   .habit-content{
     width: 100%;
+    
+  }
+  .habit-content h2{
+   font-size: 1.5rem;
+    
   }
   .habit-images{
     width: 100%;
@@ -320,6 +477,9 @@ padding: 0.5rem;
     margin: 1rem 0rem;
 
   }
+  .run-section{
+    width: 100%;
+  }
   .run-container{
   display: block;
   width: 100%;
@@ -329,7 +489,7 @@ padding: 0.5rem;
     flex-wrap: wrap;
   }
   .run-content p{
-   width: 80%;
+   width: 90%;
    margin-left: -2rem;
   }
   .run-content h2{
@@ -341,13 +501,355 @@ padding: 0.5rem;
 }
 
 .run-image{
-  width:80%;
+  width:90%;
   padding: 1.5rem;
   margin-left: -0.5rem;
   margin-top: -3rem;
 }
+.training-container{
+  width: 100%;
+}
+.training-content{
+  margin-left: -2.5rem;
+}
+.img3 , .img6{
+  display: none;
+}
+.bmi-cal{
+  margin-left: 0rem;
+}
+
 
 } 
+
+.bmi-section{
+  margin:0 auto;
+}
+.bmi-container{
+  width: 80%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background: rgb(34, 34, 34);
+  margin-bottom: 30px;
+  gap:1rem;
+}
+.bmi-chart{
+  width: 45%;
+  
+
+}
+.bmi-chart h2{
+
+ color: white;
+
+}
+table{
+ margin-top: 2rem;
+ margin-left: 4rem;
+}
+table caption{
+  text-align: left;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: 700;
+}
+table, th, td {
+  border: 1px solid rgb(181, 175, 175);
+  border-collapse: collapse;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+
+}
+.table{
+  margin-bottom: 3rem;
+  align-items: start;
+}
+.table tr th{
+  text-align: left;
+  font-weight: 600;
+  color: white;
+  font-size: 0.8rem;
+}
+.table tr td{
+  text-align: left;
+  font-weight: 400;
+  color: rgb(158, 152, 152);
+  font-size: 0.8rem;
+}
+
+
+.bmi-calculator{
+  margin-top: 3rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+.bmi-content{
+  width: 100%;
+}
+.bmi-content h2{
+  color:white;
+  margin-bottom: 0.2rem;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.bmi-content p{
+  line-height: 1rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #FFFFFFA6;
+  margin-bottom: 20px;
+ 
+}
+.bmi-input{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+.bmi-input input ,.bmi-input form{
+  width: 70%;
+  border-radius: 10px;
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+  background-color: #FFFFFF1A;
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+.bmi-input input::placeholder{
+  color:  #FFFFFF99
+}
+.bmi-input form label{
+  margin-right: 2rem;
+  color: #FFFFFF99;
+  font-size: 0.8rem;
+}
+.bmi-input form select{
+  background-color: #5756561a;
+ border: none;
+}
+#option{
+  background-color: #5756561a;
+}
+#input-span{
+  grid-column: span 2;
+  width: 86%;
+}
+#activity{
+  margin-right: 9rem;
+}
+.bmi-input button{
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+}
+.meet{
+  margin: 0 auto;
+}
+.meet-container{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap:1rem;
+}
+.meet-content{
+  width:70%;
+}
+.meet-content h2{
+  color:white;
+  margin-bottom: 0.1rem;
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+}
+.meet-content p{
+  
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: #FFFFFFA6;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.meet-imgs{
+  width: 100%;
+  background-color: rgb(34, 34, 34);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 0.2rem;
+}
+
+.meet-img{
+  width: 320px;
+  height: 240px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+.meet-img img{
+  width: 280px;
+  height: 210px;
+  border-radius: 10px;
+
+}
+
+.meet-header{
+  position: absolute;
+  top: 10rem;
+  left: 1rem;
+  z-index: 2;
+}
+.meet-h{
+  color: white;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.meet-p{
+  color: #FFFFFFA6;
+  font-size: 0.8rem;
+}
+.footer{
+  margin: 0 auto;
+  width: 100%;
+}
+.footer-container{
+  width: 80%;
+
+  background: rgb(34, 34, 34);
+  margin-bottom: 30px;
+  
+}
+.footer-container-wrapper{
+  width: 80%;
+  border-bottom: 1px solid #FFFFFFA6; 
+   display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-fitness{
+  width: 35%;
+  margin-top: 2rem;
+  margin-left: 0rem;
+}
+.footer-fitness h1{
+
+  text-align: left;
+  color: #E6533C;
+  font-style: italic;
+}
+.footer-fitness p{
+  margin-top: 1.5rem;
+  text-align: left;
+  color: #FFFFFFA6;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+}
+.get-started{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.get-started-left{
+  left: 0;
+}
+.get-started-left h3{
+  left: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.get-started-left ul{
+  margin-left: -3.5rem;
+
+ 
+}
+.get-started-left ul li{
+ list-style: none;
+ padding: 0.5rem 1rem;
+ color: #FFFFFFA6;
+ font-size: 0.8rem;
+}
+.copyRight{
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  color:#FFFFFFA6 ;
+}
+
+
+
+@media  screen and (max-width:576px) {
+  .bmi-container{
+    width: 100%;
+    flex-direction: column;
+    margin-left: -0rem;
+  }
+  .bmi-chart{
+    margin-left: 0rem;
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .bmi-calculator{
+    margin: 3rem;
+    width: 100%;
+    margin-top: -20px;
+  }
+.bmi-content{
+      margin-left: 0rem; 
+    }
+    .bmi-content h2{
+      width: 95%;
+  }
+.bmi-content p{
+      width: 95%;
+  }
+  .meet-imgs{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .meet-img{
+      margin-top: 2rem;
+      margin-left: 2.5rem;
+  }
+  .footer-container-wrapper{
+    width: 100%;
+   flex-direction: column;
+  }
+  .footer-fitness{
+    width:90%;
+    margin-top: 2rem;
+    margin-left: 4rem;
+  }
+  .get-started{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   margin-left: -5rem;
+  }
+  .footer-container{
+    width: 98%;
+  
+    
+  }
+}
+
+
 
 
 
