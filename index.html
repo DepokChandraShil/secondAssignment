@@ -8,56 +8,60 @@
 </head>
 <body>
     <header class="header">
-      <section class="nav-section">
-         <nav class="nav-container">
-            <div class="nav-hero">
-              <h2>Fitness</h2>
-            </div>
-            <div class="nav-items">
-              <ul>
-                <li class="nav-item-active">Home</li>
-                <li class="nav-item">Service</li>
-                <li class="nav-item">Contact</li>
-                <li class="nav-item">About</li>
-                
-              </ul>
-              <div class="nav-responsive">
-                <div class="menu"></div>
-                <div class="menu"></div>
-                <div class="menu"></div>
-              </div>
-            </div>
-         </nav>
-      </section>
-      <section class="hero-section">
-        <div class="hero">
-          <div class="hero-content">
-            <h3>Get body in <br/> <span class="hero-content-span">shape</span> & stay healthy</h3>
-             <p>Exercise is key to living an Anticancer lifestyle. By reducing inflammation and strengthening the immune system, physical activity can lower your risk of cancer, cancer recurrence, and chronic illness.</p>
-             <button class="join-btn">Join the Club now</button>
-             <button class="download-btn">Download App</button>
-          </div>
-          <div class="hero-image-section">
-            <div class="video">
-                <h5>500+</h5>
-                <p>Free workout videos</p>
-            </div>
-            <div class="tutorial">
-              <div class="circle">
-              </div>
-              <div class="tutorial-content">
-                <h5>350+</h5>
-              <p>Video tutorial</p>
-              </div>
-              
-            </div>
-          </div>
+      <section>
+        <section class="nav-section">
+          <nav class="nav-container">
+             <div class="nav-hero">
+               <h2>Fitness</h2>
+             </div>
+             <div class="nav-items">
+               <ul>
+                 <li class="nav-item-active">Home</li>
+                 <li class="nav-item">Service</li>
+                 <li class="nav-item">Contact</li>
+                 <li class="nav-item">About</li>
+                 
+               </ul>
+               <div class="nav-responsive">
+                 <div class="menu"></div>
+                 <div class="menu"></div>
+                 <div class="menu"></div>
+               </div>
+             </div>
+          </nav>
+       </section>
+       <section class="hero-section">
+         <div class="hero">
+           <div class="hero-content">
+             <h3>Get body in <br/> <span class="hero-content-span">shape</span> & stay healthy</h3>
+              <p>Exercise is key to living an Anticancer lifestyle. By reducing inflammation and strengthening the immune system, physical activity can lower your risk of cancer, cancer recurrence, and chronic illness.</p>
+              <button class="join-btn">Join the Club now</button>
+              <button class="download-btn">Download App</button>
+           </div>
+           <div aria-label="Heading Image" class="hero-image-section">
+             <div class="video">
+                 <h5>500+</h5>
+                 <p>Free workout videos</p>
+             </div>
+             <div class="tutorial">
+               <div class="circle">
+               </div>
+               <div class="tutorial-content">
+                 <h5>350+</h5>
+               <p>Video tutorial</p>
+               </div>
+               
+             </div>
+           </div>
+ 
+         </div>
+       </section>
 
-        </div>
       </section>
+     
     </header>
-    <main class="header">
-      <section class="nav-section" >
+    <main class="habit-section">
+      <section class="habit-section-contianer" >
         <div class="habit-container">
           <div class="habit-content">
             <h2>Change Your Habits</h2>
@@ -65,22 +69,22 @@
           </div>
           <div class="habit-images">
             <div class="habit-image">
-              <img src="images/image 2.png" alt="">
+              <img src="images/image 2.png" alt="Movement Picture">
               <h5>Movement</h5>
               <p>Physical fitness is really very much important in our life. Now-a-days, in the modern life, most of the people</p>
             </div>
             <div class="habit-image">
-              <img src="images/image 3.png" alt="">
+              <img src="images/image 3.png" alt="Exercise Time picture">
               <h5>Time</h5>
               <p>Physical fitness is really very much important in our life. Now-a-days, in the modern life, most of the people</p>
             </div>
             <div class="habit-image">
-              <img src="images/image 4.png" alt="">
+              <img src="images/image 4.png" alt="Practice Picture">
               <h5>Practice</h5>
               <p>Physical fitness is really very much important in our life. Now-a-days, in the modern life, most of the people</p>
             </div>
             <div class="habit-image">
-              <img src="images/image 5.png" alt="">
+              <img src="images/image 5.png" alt="weight loss exercise picture">
               <h5>Weight Loss</h5>
               <p>Physical fitness is really very much important in our life. Now-a-days, in the modern life, most of the people</p>
             </div>
@@ -96,7 +100,7 @@
             <button class="run-btn">Join now</button>
           </div>
           <div class="run-image">
-            <img src="images/run.jpg" alt=""/>
+            <img src="images/run.jpg" alt="Running Image picture"/>
           </div>
         </div>
       </section>
@@ -188,19 +192,21 @@
               <input type="text" placeholder="Height/cm">    
               <input type="text" placeholder="age"> 
               <form>
-                <label for="activity">Sex</label>
+              
                 <select>
+                  <option id="option">Sex</option>
                   <option id="option">Male</option>
                   <option id="option">Female</option>
                 </select>
               </form>  
               <form id="input-span">
-                <label for="activity" id="activity">Select an activity factor</label>
+                
                 <select>
-                  <option>10%</option>
-                  <option>20%</option>
-                  <option>50%</option>
-                  <option>90%</option>
+                  <option>Select an activity factor</option>
+                  <option id="option">10%</option>
+                  <option id="option">20%</option>
+                  <option id="option">50%</option>
+                  <option id="option">90%</option>
                 </select>
               </form>               
               
@@ -218,7 +224,7 @@
           </div>
           <div class="meet-imgs">
               <div class="meet-img "id="meet-img1">
-                <img src="images/trainer1.png" alt="">
+                <img src="images/trainer1.png" alt="Trainer Image">
                 <div class="meet-header">
                   <h5 class="meet-h">Mr. gibson</h5>
                 <p class="meet-p">Trainer</p>
@@ -226,7 +232,7 @@
                 
               </div>
               <div class="meet-img">
-                <img src="images/trainer2.png" alt="">
+                <img src="images/trainer2.png" alt="Trainer Image">
                 <div class="meet-header">
                   <h5 class="meet-h">Vinicius Junior</h5>
                 <p class="meet-p">Trainer</p>
@@ -234,14 +240,14 @@
                 
               </div>
               <div class="meet-img">
-                <img src="images/trainer3.png" alt="">
+                <img src="images/trainer3.png" alt="Trainer Image">
                 <div class="meet-header">
                   <h5 class="meet-h">Lionel messi</h5>
                 <p class="meet-p">Trainer</p>
                 </div>
              </div>
               <div class="meet-img">
-                <img src="images/trainer4.png" alt="">
+                <img src="images/trainer4.png" alt="Trainer Image">
                 <div class="meet-header">
                   <h5 class="meet-h">Ronaldoo</h5>
                 <p class="meet-p">Trainer</p>
@@ -249,7 +255,7 @@
                 
               </div>
               <div class="meet-img">
-                <img src="images/trainer5.png" alt="">
+                <img src="images/trainer5.png" alt="Trainer Image">
                 <div class="meet-header">
                   <h5 class="meet-h">Mbaphee</h5>
                 <p class="meet-p">Trainer</p>
@@ -257,7 +263,7 @@
                 
               </div>
               <div class="meet-img">
-                <img src="images/trainer6.png" alt="">
+                <img src="images/trainer6.png" alt="Trainer Image">
                 <div class="meet-header">
                   <h5 class="meet-h">Ashraful</h5>
                 <p class="meet-p">trainer</p>
@@ -267,16 +273,42 @@
           </div>
         </div>
      </section>
+     <section class="assignment-section">
+       <div class="assignment-section-wrapper">
+          <div class="background-wrapper">
+               
+          </div>
+          <form class="assignment-form">
+              <h3 class="assignment-heading">Register Here</h3>
 
+              <label class="assignment-label" for="username">Username</label>
+              <input class="assignment-input" type="text" placeholder="Email or Phone" id="username">
 
+              <label class="assignment-label" for="password">Password</label>
+              <input class="assignment-input" type="password" placeholder="Password" id="password">
+
+              <label class="assignment-label" for="password">Confirm Password</label>
+              <input class="assignment-input" type="password" placeholder="Confirm Password" id="password">
+
+              <button class="assignment-button">Submit</button>
+              <div class="social">
+                <div class="go">Google</div>
+                <div class="fb">Facebook</div>
+              </div>
+          </form>
+      </div>
+      
+     </section>
     </main>
     <footer class="footer">
-      <div class="footer-container">
+      <div class="footer-wrapper">
+        <div class="footer-container">
         <div class="footer-container-wrapper">
           <div class="footer-fitness">
             <h1>Fitness</h1>
             <p>sRegular exercise increases the overall happiness in our life which keeps us mentally happy and peaceful too. It relieves the symptoms of depression.</p>
           </div>
+        </div>
         <div class="get-started">
           <div class="get-started-left">
             <h3>Get Started</h3>
@@ -298,18 +330,13 @@
           </div>
             
         </div>
-      
+     
     </div>
-        <div class="copyRight">
+         <div class="copyRight">
             <p>All right reserved @Fitness 2024</p>
         </div>
+      </div>
+ </footer>
 
-  
-
-          
-        </div>
-         
-    
-    </footer>
 </body>
 </html>
