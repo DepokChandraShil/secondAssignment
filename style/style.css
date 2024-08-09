@@ -976,6 +976,7 @@ display:none;
 .social div{
   color:white;
   font:600;
+  width: 100px;
 }
 
 .footer-container-wrapper{
